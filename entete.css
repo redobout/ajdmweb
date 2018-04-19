@@ -1,0 +1,111 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Entete
+
+
+--------------------------------------------------------------*/
+
+/*---------------------------------------------------------
+# Entete
+----------------------------------------------------------*/
+
+.site-header{
+
+    
+    background-color:darkgray;
+}
+.main-navigation {
+  display: flex; /* or inline-flex */
+}
+.site-branding a{
+  
+   
+}
+.menu{
+    
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+/* On screens that are less than 600px */
+@media screen and (min-width: 600px) {
+ #masthead{
+     display: flex;
+      
+	
+}
+    .site-branding{
+        width: 20%;
+    }
+    .site-branding a{
+        color: green;
+        text-align: justify;
+    }
+    
+    
+   #site-navigation{
+        width: 100%;
+        display: flex; /* or inline-flex */
+       flex-direction: row;     
+    }
+    .menu-menu-1-container {
+      width: 100%;
+        display: flex; /* or inline-flex */
+       flex-direction: row;  
+        background-color: black;
+        
+    }
+    
+    
+    
+    #primary-menu{
+    width: 100%;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    align-items:center;
+    
+    
+}
+
+   .nav-menu li{
+        
+        margin-bottom: 2em;
+        display: flex; /* or inline-flex */
+       flex-direction: row wrap;
+       align-items: flex-start;
+       
+        align-items:center;
+       
+    
+}
+    .nav-menu a{
+        color: aliceblue;
+        text-decoration: none;
+        
+    }
+    
+            /* unvisited link */
+     .nav-menu a:link {
+            color:aliceblue;
+        }
+
+        /* visited link */
+      .nav-menu a:visited {
+            color: green;
+        }
+       .nav-menu a:hover{
+            color: aliceblue;
+       
+        }
+
+
+        /* selected link */
+       .nav-menu a:active {
+            color: yellow;
+        }
+
+        }
