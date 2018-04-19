@@ -1,0 +1,91 @@
+/*
+ Theme Name:   ajdm enfant boutemine
+ Theme URI:    http://ajdm.com/twenty-fifteen-child/
+ Description:  theme enfant de ajdm
+ Author:       Redouane Boutemine
+ Author URI:   https://codex.wordpress.org/Child_Themes
+ Template:     ajdm
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ajdm-enfant-boutemine
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Entete
+
+
+--------------------------------------------------------------*/
+
+/*---------------------------------------------------------
+# Entete
+----------------------------------------------------------*/
+
+
+#masthead{
+	display:flex;
+	flex-direction: column;
+    border: 2px;
+    background-color:beige;
+}
+
+/*---------------------------------------------------------
+# Footer
+----------------------------------------------------------*/
+
+#colophon{
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: darkgoldenrod;
+    border: 2px;
+}
+
+
+.reseaux-sociaux{
+    display:flex;
+    background-color: greenyellow;
+    height: 50px;
+}
+
+
+#facebook{
+    background-color: yellow;
+    border: 1px;
+    border-color: aqua;
+    /*background-image: url("/ajdm/wp-content/themes/ajdm_enfant_Boutemine/assets/images/facebook.png");*/
+ 
+}
+
+#linkedin{
+    
+    background-image: url("/ajdm/wp-content/themes/ajdm_enfant_Boutemine/assets/images/linkedin.png");
+   
+}
+
+
+#twitter{
+   
+    background-image: url("/ajdm/wp-content/themes/ajdm_enfant_Boutemine/assets/images/twitter.png");
+    
+}
+
+
+#youtube{
+   
+    background-image: url("/ajdm/wp-content/themes/ajdm_enfant_Boutemine/assets/images/youtube.png")
+}
+
+
+
+/* On screens that are less than 600px */
+@media screen and (min-width: 600px) {
+ #masthead{
+	
+	flex-direction: row;
+}
+}
